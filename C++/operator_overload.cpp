@@ -13,6 +13,7 @@ public:
     {
         operatoreover c;
         c.a = a + obj.a;
+	return c;
     }
 
     void print()
@@ -27,4 +28,5 @@ int main()
     operatoreover under;
     operatoreover c = under + over;
     c.print();
+    return 0;
 }
